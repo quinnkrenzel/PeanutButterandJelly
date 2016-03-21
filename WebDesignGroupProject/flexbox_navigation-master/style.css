@@ -1,0 +1,35 @@
+.flexcontainer {
+    background:green; 
+    height:60px; 
+    padding:0 10px;
+    display:flex;
+    align-items:center;
+    justify-content: flex-start; /* <-- change the options for 
+                                    justify-content: flex-start; to
+                                    justify-content: flex-end; to
+                                    justify-content: center; to
+                                    justify-content: space-between; to 
+                                    justify-content: space-around; and then hit run*/
+}
+
+
+.flexitem {
+    font-family:sans-serif;
+    text-transform:uppercase;
+    padding:10px 20px;
+    font-size:14px;
+}
+.flexitem a {
+    text-decoration:none;
+    color:white;
+}
+.flexitem a:hover {
+    color:white;
+    text-decoration:underline;
+}
+
+
+
+							
+
+  

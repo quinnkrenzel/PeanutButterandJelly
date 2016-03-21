@@ -1,0 +1,56 @@
+body {
+background-color:#bf80ff;
+font-family: Chalkboard;
+} 
+
+/*style for navigation*/ 
+
+#navigation {
+	padding: 0;
+	margin: 0; 
+	} 
+	
+	
+#navigation li {
+	display: inline;
+	float: left;
+	}
+	
+#navigation a, #navigation a:visited {
+	display: block;
+	width: 13.6em;
+	border: 4px solid #ff0066;
+	font-family: arial, vernanda, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	text-decoration:none;
+	}
+	
+#navigation a:hover { 
+	color: #ff0066;
+	background-color: #ffffff;
+}
+
+/*unordered list and ordered list*/ 
+
+ul ul, ol ul {
+    list-style-type:none;
+}
+
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    
+}
+
+/*adding survey*/ 
+/*add centering for "centerme"*/
+
+#centerme {
+width: 170px;
+margin-left: auto ;
+margin-right: auto ;
+}
